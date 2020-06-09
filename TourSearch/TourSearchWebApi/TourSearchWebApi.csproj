@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.5" />
+    <PackageReference Include="NSwag.AspNetCore" Version="13.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TourSearchAggregator\TourSearchAggregator.csproj" />
+    <ProjectReference Include="..\TourSearchCommon\TourSearchCommon.csproj" />
+    <ProjectReference Include="..\TourSearchImitator\TourSearchImitator.csproj" />
+    <ProjectReference Include="..\TourSearchOtherProvider\TourSearchOtherProvider.csproj" />
+    <ProjectReference Include="..\TourSearchTuiProvider\TourSearchTuiProvider.csproj" />
+  </ItemGroup>
+
+
+</Project>

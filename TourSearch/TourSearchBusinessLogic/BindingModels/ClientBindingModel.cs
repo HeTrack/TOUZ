@@ -21,5 +21,6 @@ namespace TourSearchBusinessLogic.BindingModels
         public string Password { get; set; }
         [DataMember]
         public DateTime DateRegistration { get; set; }
+        //проверка
     }
 }

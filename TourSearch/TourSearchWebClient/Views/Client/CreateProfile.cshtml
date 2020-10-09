@@ -1,0 +1,246 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+    <html>
+    <body>
+        <style>
+            .col2 li {
+                display: block;
+                float: left;
+                width: 33%;
+            }
+
+            .col2 {
+                margin: 0;
+                padding: 0;
+                list-style-type: none
+            }
+        </style>
+        <b>В какую страну вы хотели бы поехать?</b>
+        <br>
+        <p>Click on the collapsible panel to open and close it.</p>
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse1"><span class="ui-collapse__link-text">Азия</span></a>
+                        <a data-toggle="collapse" href="#collapse2"><span class="ui-collapse__link-text">Африка</span></a>
+                        <a data-toggle="collapse" href="#collapse3"><span class="ui-collapse__link-text">Европа</span></a>
+                        <a data-toggle="collapse" href="#collapse4"><span class="ui-collapse__link-text">Сев. Америка</span></a>
+                        <a data-toggle="collapse" href="#collapse5"><span class="ui-collapse__link-text">Юж. Америка</span></a>
+                        <a data-toggle="collapse" href="#collapse6"><span class="ui-collapse__link-text">Острова</span></a>
+                        <a data-toggle="collapse" href="#collapse7"><span class="ui-collapse__link-text">Океания</span></a>
+                        <a data-toggle="collapse" href="#collapse8"><span class="ui-collapse__link-text">Другие</span></a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse">
+                    <ul class="col2">
+                            <li class="list-group-item"><input type="checkbox" value="Абхазия"> Абхазия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Азербайджан"> Азербайджан</li>
+                            <li class="list-group-item"><input type="checkbox" value="Армения">  Армения</li>
+                            <li class="list-group-item"><input type="checkbox" value="Афганистан"> Афганистан</li>
+                            <li class="list-group-item"><input type="checkbox" value="Бахрейн"> Бахрейн</li>
+                            <li class="list-group-item"><input type="checkbox" value="Бруней"> Бруней</li>
+                            <li class="list-group-item"><input type="checkbox" value="Бутан"> Бутан</li>
+                            <li class="list-group-item"><input type="checkbox" value="Вьетнам"> Вьетнам</li>
+                            <li class="list-group-item"><input type="checkbox" value="Гонконг"> Гонконг</li>
+                            <li class="list-group-item"><input type="checkbox" value="Грузия"> Грузия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Израиль"> Израиль</li>
+                            <li class="list-group-item"><input type="checkbox" value="Индия"> Индия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Иордания"> Иордания</li>
+                            <li class="list-group-item"><input type="checkbox" value="Ирак"> Ирак</li>
+                            <li class="list-group-item"><input type="checkbox" value="Иран"> Иран</li>
+                            <li class="list-group-item"><input type="checkbox" value="Казахстан"> Казахстан</li>
+                            <li class="list-group-item"><input type="checkbox" value="Камбоджа"> Камбоджа</li>
+                            <li class="list-group-item"><input type="checkbox" value="Катар"> Катар</li>
+                            <li class="list-group-item"><input type="checkbox" value="Китай"> Китай</li>
+                            <li class="list-group-item"><input type="checkbox" value="Кыргызстан"> Кыргызстан</li>
+                            <li class="list-group-item"><input type="checkbox" value="Лаос"> Лаос</li>
+                            <li class="list-group-item"><input type="checkbox" value="Ливан"> Ливан</li>
+                            <li class="list-group-item"><input type="checkbox" value="Макао"> Макао</li>
+                            <li class="list-group-item"><input type="checkbox" value="Малайзия"> Малайзия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Монголия"> Монголия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Мьянма"> Мьянма</li>
+                            <li class="list-group-item"><input type="checkbox" value="Непал"> Непал</li>
+                            <li class="list-group-item"><input type="checkbox" value="ОАЭ"> ОАЭ</li>
+                            <li class="list-group-item"><input type="checkbox" value="Оман"> Оман</li>
+                            <li class="list-group-item"><input type="checkbox" value="Пакистан"> Пакистан</li>
+                            <li class="list-group-item"><input type="checkbox" value="Саудовская Аравия"> Саудовская Аравия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Северная Корея"> Северная Корея</li>
+                            <li class="list-group-item"><input type="checkbox" value="Сингапур"> Сингапур</li>
+                            <li class="list-group-item"><input type="checkbox" value="Сирия"> Сирия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Таджикистан"> Таджикистан</li>
+                            <li class="list-group-item"><input type="checkbox" value="Таиланд"> Таиланд</li>
+                            <li class="list-group-item"><input type="checkbox" value="Туркменистан"> Туркменистан</li>
+                            <li class="list-group-item"><input type="checkbox" value="Турция"> Турция</li>
+                            <li class="list-group-item"><input type="checkbox" value="Узбекистан"> Узбекистан</li>
+                            <li class="list-group-item"><input type="checkbox" value="Шри-Ланка"> Шри-Ланка</li>
+                            <li class="list-group-item"><input type="checkbox" value="Южная Корея"> Южная Корея</li>
+                            <li class="list-group-item"><input type="checkbox" value="Япония"> Япония</li>
+                       </ul>
+                   </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <ul class="col2">
+                        <li class="list-group-item"><input type="checkbox" value="Ботсвана"> Ботсвана</li>
+                        <li class="list-group-item"><input type="checkbox" value="Буркина-Фасо"> Буркина-Фасо</li>
+                        <li class="list-group-item"><input type="checkbox" value="Бурунди"> Бурунди</li>
+                        <li class="list-group-item"><input type="checkbox" value="Гамбия"> Гамбия</li>
+                        <li class="list-group-item"><input type="checkbox" value="Гана"> Гана</li>
+                        <li class="list-group-item"><input type="checkbox" value="Джибути"> Джибути</li>
+                        <li class="list-group-item"><input type="checkbox" value="Египет"> Египет</li>
+                        <li class="list-group-item"><input type="checkbox" value="Замбия"> Замбия</li>
+                        <li class="list-group-item"><input type="checkbox" value="Зимбабве"> Зимбабве</li>
+                        <li class="list-group-item"><input type="checkbox" value="Камерун"> Камерун</li>
+                        <li class="list-group-item"><input type="checkbox" value="Кения"> Кения</li>
+                        <li class="list-group-item"><input type="checkbox" value="Конго"> Конго</li>
+                        <li class="list-group-item"><input type="checkbox" value="Мавритания"> Мавритания</li>
+                        <li class="list-group-item"><input type="checkbox" value="Мали"> Мали</li>
+                        <li class="list-group-item"><input type="checkbox" value="Марокко"> Марокко</li>
+                        <li class="list-group-item"><input type="checkbox" value="Мозамбик"> Мозамбик</li>
+                        <li class="list-group-item"><input type="checkbox" value="Намибия"> Намибия</li>
+                        <li class="list-group-item"><input type="checkbox" value="Нигерия"> Нигерия</li>
+                        <li class="list-group-item"><input type="checkbox" value="Сан-Томе и Принсипи"> Сан-Томе и Принсипи</li>
+                        <li class="list-group-item"><input type="checkbox" value="Свазиленд"> Свазиленд</li>
+                        <li class="list-group-item"><input type="checkbox" value="Сенегал"> Сенегал</li>
+                        <li class="list-group-item"><input type="checkbox" value="Судан"> Судан</li>
+                        <li class="list-group-item"><input type="checkbox" value="Сьерра-Леоне"> Сьерра-Леоне</li>
+                        <li class="list-group-item"><input type="checkbox" value="Танзания"> Танзания</li>
+                        <li class="list-group-item"><input type="checkbox" value="Того"> Того</li>
+                        <li class="list-group-item"><input type="checkbox" value="Тунис"> Тунис</li>
+                        <li class="list-group-item"><input type="checkbox" value="Уганда"> Уганда</li>
+                        <li class="list-group-item"><input type="checkbox" value="ЦАР"> ЦАР</li>
+                        <li class="list-group-item"><input type="checkbox" value="Чад"> Чад</li>
+                        <li class="list-group-item"><input type="checkbox" value="Эритрея"> Эритрея</li>
+                        <li class="list-group-item"><input type="checkbox" value="Эфиопия"> Эфиопия </li>
+                        <li class="list-group-item"><input type="checkbox" value="ЮАР"> ЮАР </li>
+                    </ul>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <ul class="col3">
+                            <li class="list-group-item"><input type="checkbox" value="Австрия"> Австрия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Албания"> Албания</li>
+                            <li class="list-group-item"><input type="checkbox" value="Андорра"> Андорра</li>
+                            <li class="list-group-item"><input type="checkbox" value="Беларусь"> Беларусь</li>
+                            <li class="list-group-item"><input type="checkbox" value="Бельгия"> Бельгия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Болгария"> Болгария</li>
+                            <li class="list-group-item"><input type="checkbox" value="Босния и Герцеговина"> Босния и Герцеговина</li>
+                            <li class="list-group-item"><input type="checkbox" value="Великобритания"> Великобритания</li>
+                            <li class="list-group-item"><input type="checkbox" value="Германия"> Германия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Греция"> Греция</li>
+                            <li class="list-group-item"><input type="checkbox" value="Дания"> Дания</li>
+                            <li class="list-group-item"><input type="checkbox" value="Ирландия"> Ирландия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Исландия"> Исландия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Испания"> Испания</li>
+                            <li class="list-group-item"><input type="checkbox" value="Италия"> Италия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Латвия"> Латвия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Литва"> Литва</li>
+                            <li class="list-group-item"><input type="checkbox" value="Лихтенштейн"> Лихтенштейн</li>
+                            <li class="list-group-item"><input type="checkbox" value="Люксембург"> Люксембург</li>
+                            <li class="list-group-item"><input type="checkbox" value="Македония"> Македония</li>
+                            <li class="list-group-item"><input type="checkbox" value="Молдавия"> Молдавия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Монако"> Монако</li>
+                            <li class="list-group-item"><input type="checkbox" value="Нидерланды"> Нидерланды</li>
+                            <li class="list-group-item"><input type="checkbox" value="Норвегия"> Норвегия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Польша"> Польша</li>
+                            <li class="list-group-item"><input type="checkbox" value="Португалия"> Португалия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Россия"> Россия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Румыния"> Румыния</li>
+                            <li class="list-group-item"><input type="checkbox" value="Сан-Марино"> Сан-Марино</li>
+                            <li class="list-group-item"><input type="checkbox" value="Сербия"> Сербия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Словакия"> Словакия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Словения"> Словения</li>
+                            <li class="list-group-item"><input type="checkbox" value="Украина"> Украина</li>
+                            <li class="list-group-item"><input type="checkbox" value="Хорватия"> Хорватия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Черногория"> Черногория</li>
+                            <li class="list-group-item"><input type="checkbox" value="Чехия"> Чехия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Швейцария"> Швейцария</li>
+                            <li class="list-group-item"><input type="checkbox" value="Швеция"> Швеция</li>
+                            <li class="list-group-item"><input type="checkbox" value="Эстония"> Эстония</li>
+                        </ul>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <ul class="col4">
+                            <li class="list-group-item"><input type="checkbox" value="Белиз"> Белиз</li>
+                            <li class="list-group-item"><input type="checkbox" value="Гватемала"> Гватемала</li>
+                            <li class="list-group-item"><input type="checkbox" value="Гондурас"> Гондурас</li>
+                            <li class="list-group-item"><input type="checkbox" value="Канада"> Канада</li>
+                            <li class="list-group-item"><input type="checkbox" value="Коста-рика"> Коста-рика</li>
+                            <li class="list-group-item"><input type="checkbox" value="Куба"> Куба</li>
+                            <li class="list-group-item"><input type="checkbox" value="Мексика"> Мексика</li>
+                            <li class="list-group-item"><input type="checkbox" value="Никарагуа"> Никарагуа</li>
+                            <li class="list-group-item"><input type="checkbox" value="США"> США</li>
+                        </ul>
+                    </div>
+                    <div id="collapse5" class="panel-collapse collapse">
+                        <ul class="col5">
+                            <li class="list-group-item"><input type="checkbox" value="Аргентина"> Аргентина</li>
+                            <li class="list-group-item"><input type="checkbox" value="Боливия"> Боливия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Бразилия"> Бразилия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Венесуэла"> Венесуэла</li>
+                            <li class="list-group-item"><input type="checkbox" value="Колумбия"> Колумбия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Панама"> Панама</li>
+                            <li class="list-group-item"><input type="checkbox" value="Парагвай"> Парагвай</li>
+                            <li class="list-group-item"><input type="checkbox" value="Перу"> Перу</li>
+                            <li class="list-group-item"><input type="checkbox" value="Уругвай"> Уругвай</li>
+                            <li class="list-group-item"><input type="checkbox" value="Чили"> Чили</li>
+                            <li class="list-group-item"><input type="checkbox" value="Эквадор"> Эквадор</li>
+                        </ul>
+                    </div>
+                    <div id="collapse6" class="panel-collapse collapse">
+                        <ul class="col6">
+                            <li class="list-group-item"><input type="checkbox" value="Ангилья"> Ангилья</li>
+                            <li class="list-group-item"><input type="checkbox" value="Антигуа"> Антигуа</li>
+                            <li class="list-group-item"><input type="checkbox" value="Аруба"> Аруба</li>
+                            <li class="list-group-item"><input type="checkbox" value="Багамы"> Багамы</li>
+                            <li class="list-group-item"><input type="checkbox" value="Барбадос"> Барбадос</li>
+                            <li class="list-group-item"><input type="checkbox" value="Бермудские острова"> Бермудские острова</li>
+                            <li class="list-group-item"><input type="checkbox" value="Гваделупа"> Гваделупа</li>
+                            <li class="list-group-item"><input type="checkbox" value="Гренада"> Гренада</li>
+                            <li class="list-group-item"><input type="checkbox" value="Гренландия"> Гренландия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Доминика"> Доминика</li>
+                            <li class="list-group-item"><input type="checkbox" value="Доминикана"> Доминикана</li>
+                            <li class="list-group-item"><input type="checkbox" value="Кабо-Верде"> Кабо-Верде</li>
+                            <li class="list-group-item"><input type="checkbox" value="Кипр"> Кипр</li>
+                            <li class="list-group-item"><input type="checkbox" value="Коморские острова"> Коморские острова</li>
+                            <li class="list-group-item"><input type="checkbox" value="Кюрасао"> Кюрасао</li>
+                            <li class="list-group-item"><input type="checkbox" value="Маврикий"> Маврикий</li>
+                            <li class="list-group-item"><input type="checkbox" value="Мадагаскар"> Мадагаскар</li>
+                            <li class="list-group-item"><input type="checkbox" value="Мальдивы"> Мальдивы</li>
+                            <li class="list-group-item"><input type="checkbox" value="Мальта"> Мальта</li>
+                            <li class="list-group-item"><input type="checkbox" value="Марианские острова"> Марианские острова</li>
+                            <li class="list-group-item"><input type="checkbox" value="Мартиника"> Мартиника</li>
+                            <li class="list-group-item"><input type="checkbox" value="Реюньон"> Реюньон</li>
+                            <li class="list-group-item"><input type="checkbox" value="Сейшелы"> Сейшелы</li>
+                            <li class="list-group-item"><input type="checkbox" value="Сен-Бартелеми"> Сен-Бартелеми</li>
+                            <li class="list-group-item"><input type="checkbox" value="Сен-Мартен"> Сен-Мартен</li>
+                            <li class="list-group-item"><input type="checkbox" value="Сент-Винсент и Гренадины"> Сент-Винсент и Гренадины</li>
+                            <li class="list-group-item"><input type="checkbox" value="Сент-Китс и Невис"> Сент-Китс и Невис</li>
+                            <li class="list-group-item"><input type="checkbox" value="Сент-Люсия"> Сент-Люсия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Тайвань"> Тайвань</li>
+                            <li class="list-group-item"><input type="checkbox" value="Теркс и Кайкос"> Теркс и Кайкос</li>
+                            <li class="list-group-item"><input type="checkbox" value="Шпицберген"> Шпицберген</li>
+                            <li class="list-group-item"><input type="checkbox" value="Ямайка"> Ямайка</li>
+                        </ul>
+                    </div>
+                    <div id="collapse7" class="panel-collapse collapse">
+                        <ul class="col7">
+                            <li class="list-group-item"><input type="checkbox" value="Австралия"> Австралия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Индонезия"> Индонезия</li>
+                            <li class="list-group-item"><input type="checkbox" value="Новая Зеландия"> Новая Зеландия</li>
+                            <li class="list-group-item"><input type="checkbox" value="о. Кука"> о. Кука</li>
+                            <li class="list-group-item"><input type="checkbox" value="Палау"> Палау</li>
+                            <li class="list-group-item"><input type="checkbox" value="Папуа - Новая Гвинея"> Папуа - Новая Гвинея</li>
+                            <li class="list-group-item"><input type="checkbox" value="Фиджи"> Фиджи</li>
+                        </ul>
+                    </div>
+                    <div id="collapse8" class="panel-collapse collapse">
+                        <ul class="col8">
+                            <li class="list-group-item"><input type="checkbox" value="Антарктида"> Антарктида</li>
+                        </ul>
+                    <div class="panel-footer">Footer</div>
+                </div>
+                </div>
+    </body>
+    </html>
